@@ -10,7 +10,6 @@ Welcome to the **Credit Risk Modeling Preprocessing** repository! This repositor
 4. [Feature Engineering](#feature-engineering)
 5. [Usage](#usage)
 6. [Contributing](#contributing)
-7. [License](#license)
 
 ## Introduction
 Credit risk modeling aims to predict the likelihood of a customer paying a loan on-time. This repository focuses on the preprocessing steps required to transform raw data into a format suitable for machine learning models. Proper preprocessing is crucial for improving the model's accuracy and reliability.
@@ -38,18 +37,7 @@ The dataset contains various features related to loan applications, including cl
    - Target encoding for nominal categories.
 
 ## Feature Engineering
-### Aggregated Features:
-- **Credit History Aggregates**: Summarizing loan counts, types, and amounts.
-- **Debt Ratios**: Calculating ratios of debts to credit amounts and overdues.
-- **Payment Behavior**: Creating features to capture late payments, overpayments, and on-time payments.
-
-### New Features:
-- **FLAG_CONTACTS**: Total contact methods available for each client.
-- **FLAG_DOCS**: Count of submitted documents.
-- **FLAG_ADDRESS**: Count of verified address attributes.
-- **EXP_HOUSE**: Total housing expenditure based on various housing attributes.
-- **DAYS_LATE_PAYMENT**: Days a payment is late.
-- **AMT_PAYMENT_INSTALMENT_RATIO**: Ratio of payment amount to installment amount.
+Look more detailed in file pdf **REPORT DATA PREP**
 
 ## Usage
 To run the preprocessing scripts and notebooks:
@@ -63,4 +51,10 @@ To run the preprocessing scripts and notebooks:
 
 3. Run the preprocessing and feature engineering notebooks:
    ```sh
-   jupyter notebook notebooks/data_cleaning.ipynb
+   jupyter notebook notebooks/Final.ipynb
+
+## Contributing
+1. Pham Ngoc Linh
+2. Nguyen Viet Hang
+3. Nguyen Bao Chi
+4. Pham Mai Linh
