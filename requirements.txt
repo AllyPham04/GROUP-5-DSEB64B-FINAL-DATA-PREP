@@ -1,0 +1,10 @@
+pandas
+numpy
+matplotlib.pyplot
+category_encoders
+seaborn
+sklearn.neighbors
+sklearn.linear_model
+sklearn.metrics
+sklearn.model_selection
+sklearn.preprocessing
