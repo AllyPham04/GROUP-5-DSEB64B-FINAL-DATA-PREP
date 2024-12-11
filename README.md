@@ -1,7 +1,6 @@
 # GROUP-5-DSEB64B-FINAL-DATA-PREP
-# Credit Risk Modeling Preprocessing
 
-Welcome to the **Credit Risk Modeling Preprocessing** repository! This repository is dedicated to the preprocessing stage of a credit risk modeling project. The goal is to clean, transform, and engineer features from the raw data to enhance the predictive power of our models.
+Welcome to the **GROUP 5 DSEB64B FINAL DATA PREP** repository! This repository is dedicated to the preprocessing stage and modeling stage of a credit risk modeling project. The goal is to clean, transform, engineer features, and predict the probability of clients paying late or on time from the raw data.
 
 ## Table of Contents
 1. [Introduction](#introduction)
@@ -12,7 +11,7 @@ Welcome to the **Credit Risk Modeling Preprocessing** repository! This repositor
 6. [Contributing](#contributing)
 
 ## Introduction
-Credit risk modeling aims to predict the likelihood of a customer paying a loan on-time. This repository focuses on the preprocessing steps required to transform raw data into a format suitable for machine learning models. Proper preprocessing is crucial for improving the model's accuracy and reliability.
+Credit risk modeling aims to predict the likelihood of a customer paying a loan on time. This repository focuses on the preprocessing steps required to transform raw data into a format suitable for machine learning models. Proper preprocessing is crucial for improving the model's accuracy and reliability.
 
 ## Data Description
 The dataset contains various features related to loan applications, including client information, loan details, and previous credit history. The key tables include:
@@ -37,7 +36,7 @@ The dataset contains various features related to loan applications, including cl
    - Target encoding for nominal categories.
 
 ## Feature Engineering
-Look more detailed in file pdf **REPORT DATA PREP**
+Look for more detail in file pdf **REPORT DATA PREP**
 
 ## Usage
 To run the preprocessing scripts and notebooks:
